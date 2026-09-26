@@ -1,21 +1,31 @@
-## Hi, I'm Gustavo Mesquita
+# Hi, I'm Gustavo
 
-Senior QA Engineer (iGaming) based in Brazil, moving from classic test automation into applying AI directly inside the QA workflow itself — not testing AI products, using AI as part of how I test.
+**Senior QA Automation Engineer (SDET)** · 9+ years in QA · Brazil (remote)
 
-### Day to day
-Manual and automated QA for web and iOS betting/gaming platforms (Estrela Bet, Vupi). Test automation spanning web, API, mobile and native iOS.
+I build test automation that people trust: Playwright + TypeScript suites, CI/CD pipelines,
+performance checks and AI-driven testing workflows.
 
-### Portfolio
-| Repo | What it shows |
+## What I work on
+
+- **E2E automation:** Playwright (primary), Cypress, Maestro, RestAssured
+- **AI-driven testing:** Playwright MCP, Claude Code skills, agentic test generation and defect triage
+- **Performance:** k6 browser tests with Core Web Vitals gates
+- **CI/CD:** GitHub Actions, reports on GitHub Pages, Slack notifications
+
+## Featured projects
+
+| Project | What it shows |
 | --- | --- |
-| [maestro](https://github.com/gustavaom7/maestro) | Mobile (Android) + web suite, CI, Slack notifications, and a test generator that turns a plain-language scenario into a Maestro flow via the Claude API |
-| [playwright](https://github.com/gustavaom7/playwright) | Playwright + TypeScript suite with Model Context Protocol (MCP) wired in for AI-assisted locator discovery |
-| [cypress](https://github.com/gustavaom7/cypress) | Cypress end-to-end suite, UI + API coverage, contract testing basics |
-| [qa-api-testing](https://github.com/gustavaom7/qa-api-testing) | Java/RestAssured API framework — contract tests, security tests, Allure reporting |
-| [xcuitest-portfolio](https://github.com/gustavaom7/xcuitest-portfolio) | Native iOS automation with XCUITest and Page Object Model |
+| [playwright-typescript-e2e-framework](https://github.com/gustavaom7/playwright-typescript-e2e-framework) | Page Objects, fixtures, cross-browser + mobile, a11y, visual regression, MCP test generation, k6, automated defect triage |
+| [maestro-mobile-ai-qa](https://github.com/gustavaom7/maestro-mobile-ai-qa) | Mobile flows with Maestro, CI, Slack reporting and an LLM test generator |
+| [cypress-e2e-custom-commands](https://github.com/gustavaom7/cypress-e2e-custom-commands) | Scalable Cypress architecture with custom commands |
+| [api-testing-restassured](https://github.com/gustavaom7/api-testing-restassured) | API testing with RestAssured, contract and security checks |
+| [xcuitest-ios-automation](https://github.com/gustavaom7/xcuitest-ios-automation) | Native iOS UI automation with XCUITest |
 
-### Currently building
-A requirement-to-test-case generator: takes a user story as input, calls the Claude API to produce structured test cases (positive, negative, edge), and outputs a runnable Playwright skeleton. This is the anchor project for my QA+AI focus going forward.
+## Stack
 
-### Reach me
-[LinkedIn](https://linkedin.com/in/qa-gustavo-mesquita)
+`TypeScript` · `JavaScript` · `Java` · `Python` · `Playwright` · `Cypress` · `Selenium` · `Appium` · `Maestro` · `k6` · `GitHub Actions` · `Docker` · `Postman` · `Jira`
+
+## Contact
+
+[LinkedIn](https://www.linkedin.com/in/qa-gustavo-mesquita/)
