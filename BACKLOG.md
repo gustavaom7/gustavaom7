@@ -49,7 +49,7 @@ The four CV PDFs (Automation, QA Engineer, Mobile, Manual) are edited outside th
 
 ## Smaller follow-ups
 
-- [ ] Maestro: its workflow runs only on PRs and on demand, so its badge has no `main` status. Run it once on `main`, then add its CI badge to the profile table.
+- [x] Maestro: run the workflow once on `main` and add its CI badge to the profile table.
 - [ ] Maestro: `09_change_text_size` taps through 50% → 100% on every run although `clearState` already resets the size; asserting `100% (Default)` directly would save up to 10 minutes of CI.
 - [ ] Playwright: review and commit the visual-regression baselines so `@visual` can gate CI.
 - [ ] Add one business number to each flagship README (run time, cost, failures triaged).
