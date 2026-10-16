@@ -6,7 +6,7 @@ Already done (Oct 2026): XCUITest CI fixed (19/19 green), Maestro CI green with 
 
 ## LinkedIn and GitHub profile
 
-- [ ] LinkedIn headline, Top Skills (Playwright, Test Automation, TypeScript) and About line breaks; copy is in the audit page.
+- [x] LinkedIn headline, Top Skills (Playwright, Test Automation, TypeScript) and About line breaks.
 - [ ] Pinned repos: Playwright, Appium, Cypress, RestAssured, Maestro, portfolio site.
 
 ## CVs
