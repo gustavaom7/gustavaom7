@@ -15,6 +15,7 @@ CI/CD pipelines, performance checks and AI-driven testing workflows, always with
 
 - **E2E and API automation:** Playwright (primary), Appium + WebdriverIO, Cypress, Maestro, RestAssured (Java)
 - **Mobile:** native Android/iOS from one Screen Object layer, deep-link test setup, gestures, NATIVE ↔ WEBVIEW, mocked GPS, interruptions, mobile web on a real Android Chrome
+- **LLM evaluation:** DeepEval (LLM-as-judge, G-Eval), deepteam red-teaming, local models with Ollama, record/replay CI for model answers
 - **AI-driven testing:** Playwright MCP and Appium MCP for exploration, Claude Code skills for test generation and evidence-first CI failure triage
 - **Performance:** k6 browser tests with Core Web Vitals gates
 - **CI/CD and reporting:** GitHub Actions, Android emulators in CI, Allure and Playwright reports on GitHub Pages, Slack notifications
@@ -23,6 +24,7 @@ CI/CD pipelines, performance checks and AI-driven testing workflows, always with
 
 | Project | What it shows | CI | Live report |
 | --- | --- | --- | --- |
+| [**llm-eval-qa**](https://github.com/gustavaom7/llm-eval-qa) | Testing an LLM product: a RAG support bot evaluated with deterministic gates, a DeepEval judge and a 44-attack deepteam red-team, on local Ollama models at zero cost. Replayable CI, known-findings baseline; found a harmful wrong answer and an invented support channel, 0 critical in 44 attacks | [![CI](https://github.com/gustavaom7/llm-eval-qa/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/gustavaom7/llm-eval-qa/actions/workflows/ci.yml) | [Eval report](https://gustavaom7.github.io/llm-eval-qa/) |
 | [**playwright-typescript-e2e-framework**](https://github.com/gustavaom7/playwright-typescript-e2e-framework) | Page Objects, fixtures, cross-browser + mobile emulation, a11y, visual regression, MCP test generation, k6, automated defect triage | [![Playwright](https://github.com/gustavaom7/playwright-typescript-e2e-framework/actions/workflows/playwright.yml/badge.svg)](https://github.com/gustavaom7/playwright-typescript-e2e-framework/actions/workflows/playwright.yml) | [HTML report](https://gustavaom7.github.io/playwright-typescript-e2e-framework/) |
 | [**appium-mobile-e2e-framework**](https://github.com/gustavaom7/appium-mobile-e2e-framework) | Appium 3 + WebdriverIO 10 + TypeScript: one codebase for Android and iOS, deep-link setup, gestures, NATIVE ↔ WEBVIEW, mocked GPS, background/screen-lock interruptions, mobile web in the emulator's real Chrome, Allure with video on failure, Appium MCP + skills for screen generation and CI triage, flaky failures traced to root cause with logcat | [![Android E2E](https://github.com/gustavaom7/appium-mobile-e2e-framework/actions/workflows/android.yml/badge.svg)](https://github.com/gustavaom7/appium-mobile-e2e-framework/actions/workflows/android.yml) | [Allure report](https://gustavaom7.github.io/appium-mobile-e2e-framework/) |
 | [maestro-mobile-ai-qa](https://github.com/gustavaom7/maestro-mobile-ai-qa) | Maestro flows for the Wikipedia Android app on an emulator in CI, Slack reporting and a Claude-based flow generator with pytest | [![Maestro](https://github.com/gustavaom7/maestro-mobile-ai-qa/actions/workflows/mobile-tests.yml/badge.svg?branch=main)](https://github.com/gustavaom7/maestro-mobile-ai-qa/actions/workflows/mobile-tests.yml) | |
@@ -44,6 +46,9 @@ CI/CD pipelines, performance checks and AI-driven testing workflows, always with
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![DeepEval](https://img.shields.io/badge/DeepEval-5B21B6?style=flat-square)
+![deepteam](https://img.shields.io/badge/deepteam-7C3AED?style=flat-square)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
 ![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=claude&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
